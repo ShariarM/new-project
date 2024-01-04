@@ -1,3 +1,55 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+.hero{
+    background-image: url(../imag/sc.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: initial;
+}
+.hero h1{
+    text-align: center;
+    color: blue;
+    font-size: 100px;
+    font-weight: 700px;
+    padding-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.a1,.a3{
+    /* margin-right: auto;
+    /* margin-left: auto; */
+    width: 80%;
+    margin: 60px auto;
+    background-color: aquamarine;
+    padding: 60px;
+    border-width: 15px;
+    border-color: crimson;
+    border-style:groove;
+
+}
+.a1 h2{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px;
+    border-color: crimson;
+    border-style:dotted;
+    border-width: 2px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+
+}
+.a1 p{
+    font-size: 20px;
+    line-height: 2em;
+}
+.a2{
+    font-size: 2em;
 }
